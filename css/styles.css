@@ -301,7 +301,9 @@ body {
 .sm-team-icon {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon {
+  fill: #f4f4fd;
 }
 .icon-link {
   width: 100%;
@@ -311,15 +313,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover {
   background-color: #404bbf;
 }
 .icon-link:focus {
   background-color: #404bbf;
-}
-.icon {
-  fill: #f4f4fd;
 }
 
 /* 4 section */
