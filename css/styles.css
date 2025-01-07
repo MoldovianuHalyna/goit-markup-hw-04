@@ -319,7 +319,7 @@ body {
   background-color: #404bbf;
 }
 /* doesn't work */
-.icon-link:active {
+.icon-link:focus {
   background-color: #404bbf;
 }
 
@@ -471,7 +471,6 @@ body {
 .sm-footer-icon {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link {
   width: 100;
@@ -481,11 +480,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link:hover {
   background-color: #31d0aa;
 }
-.footer-icon-link:active {
+.footer-icon-link:focus {
   background-color: #31d0aa;
 }
 .f-icon {
