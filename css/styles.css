@@ -311,6 +311,18 @@ body {
   align-items: center;
   justify-content: center;
 }
+.icon-link:hover {
+  background-color: #404bbf;
+}
+.icon-link:focus {
+  background-color: #404bbf;
+}
+.icon {
+  fill: #f4f4fd;
+}
+.sm-team-icon4 {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* 4 section */
 /* apps */
 .section_portfolio {
