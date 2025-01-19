@@ -26,8 +26,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* display: flex; */
-  /* align-items: center; */
 }
 
 body {
@@ -151,6 +149,7 @@ body {
     url("../images/people.jpg");
   /* changes the section position not correct */
   max-width: 1440px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
